@@ -1,0 +1,207 @@
+{
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pydantic": "2.13.5",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.3.0"
+  },
+  "attachment_data_files_identical": 35,
+  "raw_case_comparisons": 10,
+  "runs_30_iterations": [
+    {
+      "variant": "cem",
+      "mode": "difference",
+      "status": "max_iterations",
+      "iterations": 30,
+      "work": {
+        "forward_calls": 349,
+        "adjoint_calls": 348,
+        "elapsed_s": 6.317135567776859
+      },
+      "calibration_status": "converged",
+      "metrics": {
+        "conductivity_ground_truth_available": false,
+        "image_metrics_reason": "Experimental photos are not quantitative conductivity truth.",
+        "n_measurements": 966,
+        "difference_voltage_relative_error": 0.04899935771176195,
+        "absolute_voltage_relative_error": 0.022621188126335692,
+        "difference_voltage_rmse_V": 0.0007467462284667274,
+        "conductivity_min_S_m": 0.004533556137225813,
+        "conductivity_max_S_m": 0.022305540871382003
+      },
+      "initial_objective": 0.5,
+      "final_objective": 0.007793963419550162,
+      "alpha": 0.03
+    },
+    {
+      "variant": "continuum",
+      "mode": "difference",
+      "status": "max_iterations",
+      "iterations": 30,
+      "work": {
+        "forward_calls": 42,
+        "adjoint_calls": 41,
+        "elapsed_s": 0.8609823975712061
+      },
+      "calibration_status": "converged",
+      "metrics": {
+        "conductivity_ground_truth_available": false,
+        "image_metrics_reason": "Experimental photos are not quantitative conductivity truth.",
+        "n_measurements": 966,
+        "difference_voltage_relative_error": 0.04714725093595162,
+        "absolute_voltage_relative_error": 0.07009814804037001,
+        "difference_voltage_rmse_V": 0.0007185202717574614,
+        "conductivity_min_S_m": 0.005242425894345689,
+        "conductivity_max_S_m": 0.02182133153849946
+      },
+      "initial_objective": 0.5,
+      "final_objective": 0.007307361799392481,
+      "alpha": 0.03
+    },
+    {
+      "variant": "cem",
+      "mode": "absolute",
+      "alpha": 0.0003,
+      "status": "max_iterations",
+      "iterations": 30,
+      "work": {
+        "forward_calls": 348,
+        "adjoint_calls": 347,
+        "elapsed_s": 6.105186255648732
+      },
+      "calibration_status": "converged",
+      "metrics": {
+        "conductivity_ground_truth_available": false,
+        "image_metrics_reason": "Experimental photos are not quantitative conductivity truth.",
+        "n_measurements": 966,
+        "difference_voltage_relative_error": 0.17507192743644126,
+        "absolute_voltage_relative_error": 0.011315272595002403,
+        "difference_voltage_rmse_V": 0.002668081942881901,
+        "conductivity_min_S_m": 0.0037181188532207456,
+        "conductivity_max_S_m": 0.022832284361224798
+      },
+      "initial_objective": 0.006520010457463675,
+      "final_objective": 0.0001418926757918305
+    },
+    {
+      "variant": "continuum",
+      "mode": "absolute",
+      "alpha": 0.0003,
+      "status": "max_iterations",
+      "iterations": 30,
+      "work": {
+        "forward_calls": 40,
+        "adjoint_calls": 39,
+        "elapsed_s": 0.8106322744861245
+      },
+      "calibration_status": "converged",
+      "metrics": {
+        "conductivity_ground_truth_available": false,
+        "image_metrics_reason": "Experimental photos are not quantitative conductivity truth.",
+        "n_measurements": 966,
+        "difference_voltage_relative_error": 0.6160122871399184,
+        "absolute_voltage_relative_error": 0.012202287463929424,
+        "difference_voltage_rmse_V": 0.00938797718159632,
+        "conductivity_min_S_m": 0.0031119636727051122,
+        "conductivity_max_S_m": 0.02562713392017651
+      },
+      "initial_objective": 0.005571018994384459,
+      "final_objective": 0.00018342644837229523
+    }
+  ],
+  "ten_case_smoke_3_iterations": [
+    {
+      "case_id": "1_1",
+      "directory": "000",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "1_2",
+      "directory": "001",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "2_1",
+      "directory": "002",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "2_3",
+      "directory": "003",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "3_1",
+      "directory": "004",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "3_4",
+      "directory": "005",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "4_1",
+      "directory": "006",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "4_3",
+      "directory": "007",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "5_1",
+      "directory": "008",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    },
+    {
+      "case_id": "5_2",
+      "directory": "009",
+      "status": "max_iterations",
+      "stopping_reason": "max_iterations"
+    }
+  ],
+  "validation_date": "2026-11-20",
+  "test_suite": {
+    "passed": 130,
+    "command": "python -m pytest -q",
+    "elapsed_s": 5.42
+  },
+  "lint": {
+    "command": "ruff check .",
+    "status": "passed"
+  },
+  "portability": {
+    "installed_copy": true,
+    "unrelated_working_directory": true,
+    "commands": [
+      "eit list",
+      "eit bench --suite configs/benchmarks/smoke.yaml",
+      "python examples/forward_demo.py",
+      "python examples/eit_demo.py --iterations 2"
+    ]
+  },
+  "original_repository_checks": {
+    "eit-framework": 91,
+    "usct-benchlab": 233,
+    "fttt-benchlab": 94
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

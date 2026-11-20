@@ -1,0 +1,450 @@
+{
+  "schema": "eitbench.source.v1",
+  "project": "eit-benchlab",
+  "attachment": {
+    "identifier": "eit_submission.zip",
+    "sha256": "4c70cacbd3548fd6ad1484cac8b0fa2c0e7e6f5a0b3ea1edd31a4f1f0cf265b2",
+    "archive_root": "eit/",
+    "software_license_declaration": "No separate software license file or explicit software license declaration was included.",
+    "files_sha256": {
+      "ALGORITHM.md": "732d668d7d71e0c8afcb61b46c9c9d46abe165a072bc112f8f99a34f66d0fa68",
+      "README.md": "9cbca7f5cc9d33258b1bb413394392d595f2854b0e9b8fb99940736b0c75e851",
+      "THIRD_PARTY_NOTICES.md": "ed307156abf007fcda405bce054106eb5039fa4ce2d7aa34c8f8469f75892a2b",
+      "data/example.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+      "data/manifest.json": "f9ec06ee34a3928e09bdd4b46a1e94e46e845d0891f81efb55098d50aea9151e",
+      "data/phantom_1_1.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+      "data/phantom_1_2.npz": "fc7da8c2d54dd09b3958e5ed728e679de92b1691d08bb281fcbd5daf9af433c3",
+      "data/phantom_2_1.npz": "0f8b95c278f567c435e336d75a280da3c58d12ff1f07b4f5420d41a569837c37",
+      "data/phantom_2_3.npz": "831cb565c42543a443eede46eba00ee221e80dc5ee87c289d108980cdeee7229",
+      "data/phantom_3_1.npz": "a982afc2e9896bf7ada8915e9ef4cf9684e756ecb7eeb16bdc73637da854196a",
+      "data/phantom_3_4.npz": "519ddb3642b74e07968f22ad2288c73b480be56e7b8a26bc61e74c955d04ec73",
+      "data/phantom_4_1.npz": "199fc4d57fd2f1f4c7bae36283cb28c148434a4f6a3f2c75d8f75007496ae61e",
+      "data/phantom_4_3.npz": "ad44bd9e0012e60cb700049ba8c6ff3ee248eabb3374815cad4a0d396fc38940",
+      "data/phantom_5_1.npz": "ec86db532ad35b5592e9fd8684cde985cecebfb371dfad8b90926b44d80709a8",
+      "data/phantom_5_2.npz": "eefb97a5cc3c64b894d381b4cc9e8378d70a44b273fa0be4d36e752bc9d8f1d0",
+      "data/photos/fantom_1_1.jpg": "310457b12767ad03c59aaba19a4b5a78f12d0e86ece705f7f713a55921388bf5",
+      "data/photos/fantom_1_2.jpg": "7bf7e8d83a5f555975bb7c762946943920fafdc2fecfd6c4478c8322c4a1e43f",
+      "data/photos/fantom_2_1.jpg": "c08a04039e733670238e04d7b286f98c80697b2686007751600ce8ec1e260383",
+      "data/photos/fantom_2_3.jpg": "bebc7ae1404be3ad9ba86572d59b8613f62a8ddfd6b53c5faf291b31fb1ef246",
+      "data/photos/fantom_3_1.jpg": "030ab1909307a68e4ac98a38fe0f8daac3b439de747d19fe2e27f7298a794645",
+      "data/photos/fantom_3_4.jpg": "6e9d1ca2d2392b1ba419b48b3a8907d9240ed9b9bb8a38cd810a43e1a9d4265e",
+      "data/photos/fantom_4_1.jpg": "557dc7821363841e86d74066e2eb38f3e91decf74288f66cf3afcd432190e03b",
+      "data/photos/fantom_4_3.jpg": "743b526c39bc4b87a5a6bd3f4a628a0e97072780de75fdf56dcdc6d73768e029",
+      "data/photos/fantom_5_1.jpg": "15575a829a12b59bb78c6e1ca6dc85d8dfc407f742d263e904bba4e71632a726",
+      "data/photos/fantom_5_2.jpg": "893e97124322ca5481f7088df012ad64c22554adc4785d8b48fe31eea1afa130",
+      "data/source/LoadData.m": "b9a005a70b1ebf6121a233a1030fa9701ce857777a2f7fa48ca71fe9a817ae32",
+      "data/source/datamat_1_0.mat": "f91ab0c5edea5e06c8895b0d03597f801ecff4a59d72eaa4bf4914fac94fc9d9",
+      "data/source/datamat_1_1.mat": "6be1ff36c89cf77dca00364231c27b1f5d0a9470511135f67fd0869d50782a47",
+      "data/source/datamat_1_2.mat": "6e397892808fd42d60037d34d84878c4d50aeb1804260c548813f4a2d3aeb35d",
+      "data/source/datamat_2_1.mat": "d578b2c1cf4c2ae76541cd1e4fdf95bcd6088bc403ead16ee5f49def36e8f65e",
+      "data/source/datamat_2_3.mat": "cc1af68aef5db9c81e1555fe1d95917bb715f6d60b54d36ca28437ba6c633439",
+      "data/source/datamat_3_1.mat": "6259deac99aa66d33cdb1c09cf91b7a8e57bed1aff405e0987f654cef4503648",
+      "data/source/datamat_3_4.mat": "c1d0874c63736a0efc36bdcf0c7842a2346d0c919fee32f9681746efcd5f948c",
+      "data/source/datamat_4_1.mat": "59c4ff80f799860f9597966b02b684ae889fac53f8b79285b159ac7acc6c0827",
+      "data/source/datamat_4_3.mat": "c51f121e5a5f89a8ce6ad86bdab54166c26c5b424343a6fc7b399cee462b8f8d",
+      "data/source/datamat_5_1.mat": "15bce81729e698ad17f7a2bf352162e52beee1838c24f0c320711e1fbccfff0a",
+      "data/source/datamat_5_2.mat": "208fa34532762d32d154191c0763066b95a35169da9a87c330954ed6f2afa446",
+      "data/source/dataset_metadata.json": "8062b2eb338004c3f079273f72d757c0b51aa9d9e2fea51c9b79fe6fec9d527d",
+      "eit_core.py": "c84c6e249f10c43e50aef4e123daeedff45bdcbae04e068406cddb9d5fab077d",
+      "forward.py": "97d802308a3bfa9830d658359f6daeb535158d1923fb1c32c8945f7188c2da15",
+      "inverse.py": "c6468840bcb013ac7040e8d13163f7ad600f2090dc38364b46203f35020d314e",
+      "prepare_data.py": "d783c00a1134cf74649ae1058db2b4d63da4dfa72b95b16f06e509081de03785",
+      "requirements.txt": "0f0bac5cddfc511fd2dc15e07e8527c7142cec2ede89c8d8aee433098302b6bf",
+      "run.py": "d0666a5f87c91a821f24a7c22a176fe1cc071530f0bf6e88c2ec484fec15257f",
+      "verify.py": "2441bed8afd1f194e5db2a7fc6c63da04bf1bbce63da7f003e89f7443b9d00de"
+    }
+  },
+  "algorithm_origins": [
+    {
+      "source_identifiers": [
+        "eit/eit_core.py"
+      ],
+      "destinations": [
+        "src/eitbench/operators/fem.py",
+        "src/eitbench/operators/forward.py",
+        "src/eitbench/operators/regularization.py"
+      ],
+      "role": "P1 FEM, CEM/continuum boundary models, discrete adjoint and TV mathematics"
+    },
+    {
+      "source_identifiers": [
+        "eit/inverse.py"
+      ],
+      "destinations": [
+        "src/eitbench/algorithms/calibration.py",
+        "src/eitbench/algorithms/lbfgsb_tv.py"
+      ],
+      "role": "Reference-only calibration, nonlinear difference/absolute inversion and relative conductivity parameterization"
+    }
+  ],
+  "reused_framework": {
+    "identifier": "eit-framework local source snapshot",
+    "runtime_dependency": false,
+    "notice": "Existing MIT copyright and permission notice retained in LICENSE; no new attachment license is asserted.",
+    "files": [
+      {
+        "source_identifier": "eit-framework/src/eit_framework/__init__.py",
+        "source_sha256": "e74c2da5ac418fd38063782c4c9a13701c9bc6e1cb6bec2f4132800af49bdba8",
+        "destination": "src/eitbench/__init__.py",
+        "adapted_sha256": "836cc91b0a765d6e5912f645d02075571269cde3c66998a6f1d9077e2fa1a208"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/__main__.py",
+        "source_sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+        "destination": "src/eitbench/__main__.py",
+        "adapted_sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/algorithms/__init__.py",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "destination": "src/eitbench/algorithms/__init__.py",
+        "adapted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/algorithms/calibration.py",
+        "source_sha256": "40c75b116ec49bfb7ce808fd29c9fc0921df85e2c86e4f212208bf16a956f307",
+        "destination": "src/eitbench/algorithms/calibration.py",
+        "adapted_sha256": "afe87871c4712875f7cb93a4ded937dbd71b7b345597392c383f1198ea33d389"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/algorithms/lbfgsb_tv.py",
+        "source_sha256": "b828810491e0982acc9b9c41cdf6373b13ed778b097d91130213fd640bb5d359",
+        "destination": "src/eitbench/algorithms/lbfgsb_tv.py",
+        "adapted_sha256": "6022de039fbd62c23961f9ef43e1be5719cd74fd14973be53546b5f3b115ba11"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/algorithms/parameters.py",
+        "source_sha256": "22b5197507c5a1eb65d089382f7477a9dd7762f303e81159e957dd1c7c1bdf41",
+        "destination": "src/eitbench/algorithms/parameters.py",
+        "adapted_sha256": "22b5197507c5a1eb65d089382f7477a9dd7762f303e81159e957dd1c7c1bdf41"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/benchmark/__init__.py",
+        "source_sha256": "91677970126fd305934422d475fbb94e0db4845c3f66efcd720374d04badbeca",
+        "destination": "src/eitbench/benchmark/__init__.py",
+        "adapted_sha256": "91677970126fd305934422d475fbb94e0db4845c3f66efcd720374d04badbeca"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/benchmark/artifacts.py",
+        "source_sha256": "c488b1690603fbcc8c66ced24c79ded6b2e6ffccf426d2f56034f71a2f6cca6b",
+        "destination": "src/eitbench/benchmark/artifacts.py",
+        "adapted_sha256": "d5f71e827835fc4e2de3649ab96233ae771e79624caa93017bca0a75e4b7dd56"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/benchmark/runner.py",
+        "source_sha256": "947afe617f20891f787e22017485203622d2133c91081ca3499360c05ab2ee93",
+        "destination": "src/eitbench/benchmark/runner.py",
+        "adapted_sha256": "be5707046f850ca21bec6dbe9bce2699ba79c49cb95b25623cc8cc229da913f7"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/cli.py",
+        "source_sha256": "47d4d6f0cd24dbb5f74b5ceab12bfb467bf7539684226cb3992bd247989bd46c",
+        "destination": "src/eitbench/cli.py",
+        "adapted_sha256": "f24a00cf27090051b1d0016fc4573b2e0a27a29839bc403ce810940074269bfe"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/__init__.py",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "destination": "src/eitbench/core/__init__.py",
+        "adapted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/algorithm_specs.py",
+        "source_sha256": "cbcb29928c3fb60de5c59cebbb0f2c9a138c1c87dbfaf4f47442560387e3c899",
+        "destination": "src/eitbench/core/algorithm_specs.py",
+        "adapted_sha256": "cbcb29928c3fb60de5c59cebbb0f2c9a138c1c87dbfaf4f47442560387e3c899"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/config.py",
+        "source_sha256": "c45fad46846af3d482fa9d311766293c6e8806a3fc5b32b4cde09fb96c664d65",
+        "destination": "src/eitbench/core/config.py",
+        "adapted_sha256": "2a14f934fc24fbda9f553aac803a09590d001e9df70dd0e3b2b2df11f719f0f9"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/io.py",
+        "source_sha256": "3a7c6054c19c01f410d75f7aeda25b23ceb2a06e8a946ff1a3af8aa9bc5572f9",
+        "destination": "src/eitbench/core/io.py",
+        "adapted_sha256": "7b431772f240f71eb40ab346e58022ddac3fb5f2971c5e32dd9f22566e0ee00c"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/registry.py",
+        "source_sha256": "3da44dad0068c996e510772c63ab038237d83cff3f84880de1f62b65bcc84288",
+        "destination": "src/eitbench/core/registry.py",
+        "adapted_sha256": "3da44dad0068c996e510772c63ab038237d83cff3f84880de1f62b65bcc84288"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/run_controls.py",
+        "source_sha256": "b53c3729d91c9f4a1bbdc2c80ea22345a8237f904d4c36456cad78df18b7557e",
+        "destination": "src/eitbench/core/run_controls.py",
+        "adapted_sha256": "0a0b05de3706935ffccc84d3a86ba2d573d5b49a35593be7f8ec4416eae19570"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/core/schema.py",
+        "source_sha256": "e4a7f8573597b230fa1f6837efdd3a460b31fb1a2707c13e1c647f94c3a43083",
+        "destination": "src/eitbench/core/schema.py",
+        "adapted_sha256": "8c4a05cacd42aa14891648533c6fcc5c8e0a1fab21e56c78344f91d542db9e79"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/data/__init__.py",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "destination": "src/eitbench/data/__init__.py",
+        "adapted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/data/import_submission.py",
+        "source_sha256": "5c899964a4535c301c646f37aad0a2460cbb23a1792a9fe3e25378345aa9402a",
+        "destination": "src/eitbench/data/import_submission.py",
+        "adapted_sha256": "5c899964a4535c301c646f37aad0a2460cbb23a1792a9fe3e25378345aa9402a"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/data/prepare_kit4.py",
+        "source_sha256": "c65993b37eb537a7d4bbc5c0b98fdcae159e623592ca29cdf0ad83f32673a80c",
+        "destination": "src/eitbench/data/prepare_kit4.py",
+        "adapted_sha256": "c65993b37eb537a7d4bbc5c0b98fdcae159e623592ca29cdf0ad83f32673a80c"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/evaluation/__init__.py",
+        "source_sha256": "f698627cd3146d32d2181e21b55d0412f91146d95dce383a6493faba30e2c9e6",
+        "destination": "src/eitbench/evaluation/__init__.py",
+        "adapted_sha256": "f698627cd3146d32d2181e21b55d0412f91146d95dce383a6493faba30e2c9e6"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/evaluation/metrics.py",
+        "source_sha256": "d5f0d9e25a0e1ec5dc9d1ecc478f7a5d358a6063e8d8d12cba0b6f4e1fa233ae",
+        "destination": "src/eitbench/evaluation/metrics.py",
+        "adapted_sha256": "d5f0d9e25a0e1ec5dc9d1ecc478f7a5d358a6063e8d8d12cba0b6f4e1fa233ae"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/models/__init__.py",
+        "source_sha256": "be9e91da52dee9b6c01d10fa818be6347a4069e9ff98852c476fe41f90a5b6da",
+        "destination": "src/eitbench/models/__init__.py",
+        "adapted_sha256": "be9e91da52dee9b6c01d10fa818be6347a4069e9ff98852c476fe41f90a5b6da"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/models/conductivity.py",
+        "source_sha256": "8e6fc99926fb6705f9e3aa3f35d7009ac70f5de5cf8da4e32c4f4773b6cf258f",
+        "destination": "src/eitbench/models/conductivity.py",
+        "adapted_sha256": "e4f408a3d6a1633c10ea15410a3826deef4fa395bda80a98ca9fb8e41d09f97b"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/__init__.py",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "destination": "src/eitbench/operators/__init__.py",
+        "adapted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/base.py",
+        "source_sha256": "8b839f117a9c0630ebcd25bc26e09c422f1156b8cbbd3946c5681a4223d41059",
+        "destination": "src/eitbench/operators/base.py",
+        "adapted_sha256": "a023305d8ed0a7512a9091d39ad4fff48cb15067825be131ffeb973b33709f2e"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/eit.py",
+        "source_sha256": "ab0dacd2f2cc075d9b9ba5d3a0db45f396b6d1597cb0c4feb31d7fbf714404a7",
+        "destination": "src/eitbench/operators/eit.py",
+        "adapted_sha256": "8a5b441097572af93cc4e9940dddbbe0d0816e36b9dfb4959758968abafc684b"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/fem.py",
+        "source_sha256": "3de83b3ef7666920e388f0923762a67ca75a6e234341f71c5a7fcc005ade4f1c",
+        "destination": "src/eitbench/operators/fem.py",
+        "adapted_sha256": "d58cde86feb73843c3b977e4cfe748c91e81608049a3c207a272850a210dc6b7"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/forward.py",
+        "source_sha256": "9da7462c41ff49e5a5c8183d11354837b3e92c13f0a95c4dad0814950aafd21b",
+        "destination": "src/eitbench/operators/forward.py",
+        "adapted_sha256": "9363298d31d9f2f850de3f738b369a62211999a7caa010f5a89ddd8e44851e90"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/operators/regularization.py",
+        "source_sha256": "acaa6ce85a2fb6284e985920a3e305fc92e7b7176f687b7569e50c64a511c502",
+        "destination": "src/eitbench/operators/regularization.py",
+        "adapted_sha256": "7b516e479e67855a4d50eb802001cd5d356bccb787c68fd37ad94e7b05b15b6d"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/solvers/__init__.py",
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "destination": "src/eitbench/solvers/__init__.py",
+        "adapted_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/solvers/base.py",
+        "source_sha256": "fc45f29352dca7325c75fc265df855985006298c968819f3d5a71bb63141ce12",
+        "destination": "src/eitbench/solvers/base.py",
+        "adapted_sha256": "fc45f29352dca7325c75fc265df855985006298c968819f3d5a71bb63141ce12"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/solvers/lbfgsb.py",
+        "source_sha256": "edaa6fd851192c0c2acb8b9ec0f94998a54be6cb1cbe687a78587aea5747f7f5",
+        "destination": "src/eitbench/solvers/lbfgsb.py",
+        "adapted_sha256": "b13a458493028e5757683e72f068755ffbeeb7337a12ba19e25f20d13d632a36"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/solvers/tv.py",
+        "source_sha256": "42efb5bfd0d3d7f9500aa8308bd64c4cfa1cfa6442843250f5429df15287eba0",
+        "destination": "src/eitbench/solvers/tv.py",
+        "adapted_sha256": "e6f3b4bdf522f066b6a153e5f5b740fa8132048e5b32bc7164548b81d4374b71"
+      },
+      {
+        "source_identifier": "eit-framework/src/eit_framework/viz.py",
+        "source_sha256": "2c00c690a671632e8004f9e29f419959be3d26689a65ae674ee7ec764adc9436",
+        "destination": "src/eitbench/viz.py",
+        "adapted_sha256": "12bb756a1f0188bf7526808f9243be7eeabb5d345acefee935c026ee69f32775"
+      }
+    ]
+  },
+  "data": {
+    "doi": "10.5281/zenodo.1203914",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "manifest": "data/manifest.json",
+    "identical_to_attachment_files": 35,
+    "files_sha256": {
+      "data/example.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+      "data/manifest.json": "f9ec06ee34a3928e09bdd4b46a1e94e46e845d0891f81efb55098d50aea9151e",
+      "data/phantom_1_1.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+      "data/phantom_1_2.npz": "fc7da8c2d54dd09b3958e5ed728e679de92b1691d08bb281fcbd5daf9af433c3",
+      "data/phantom_2_1.npz": "0f8b95c278f567c435e336d75a280da3c58d12ff1f07b4f5420d41a569837c37",
+      "data/phantom_2_3.npz": "831cb565c42543a443eede46eba00ee221e80dc5ee87c289d108980cdeee7229",
+      "data/phantom_3_1.npz": "a982afc2e9896bf7ada8915e9ef4cf9684e756ecb7eeb16bdc73637da854196a",
+      "data/phantom_3_4.npz": "519ddb3642b74e07968f22ad2288c73b480be56e7b8a26bc61e74c955d04ec73",
+      "data/phantom_4_1.npz": "199fc4d57fd2f1f4c7bae36283cb28c148434a4f6a3f2c75d8f75007496ae61e",
+      "data/phantom_4_3.npz": "ad44bd9e0012e60cb700049ba8c6ff3ee248eabb3374815cad4a0d396fc38940",
+      "data/phantom_5_1.npz": "ec86db532ad35b5592e9fd8684cde985cecebfb371dfad8b90926b44d80709a8",
+      "data/phantom_5_2.npz": "eefb97a5cc3c64b894d381b4cc9e8378d70a44b273fa0be4d36e752bc9d8f1d0",
+      "data/photos/fantom_1_1.jpg": "310457b12767ad03c59aaba19a4b5a78f12d0e86ece705f7f713a55921388bf5",
+      "data/photos/fantom_1_2.jpg": "7bf7e8d83a5f555975bb7c762946943920fafdc2fecfd6c4478c8322c4a1e43f",
+      "data/photos/fantom_2_1.jpg": "c08a04039e733670238e04d7b286f98c80697b2686007751600ce8ec1e260383",
+      "data/photos/fantom_2_3.jpg": "bebc7ae1404be3ad9ba86572d59b8613f62a8ddfd6b53c5faf291b31fb1ef246",
+      "data/photos/fantom_3_1.jpg": "030ab1909307a68e4ac98a38fe0f8daac3b439de747d19fe2e27f7298a794645",
+      "data/photos/fantom_3_4.jpg": "6e9d1ca2d2392b1ba419b48b3a8907d9240ed9b9bb8a38cd810a43e1a9d4265e",
+      "data/photos/fantom_4_1.jpg": "557dc7821363841e86d74066e2eb38f3e91decf74288f66cf3afcd432190e03b",
+      "data/photos/fantom_4_3.jpg": "743b526c39bc4b87a5a6bd3f4a628a0e97072780de75fdf56dcdc6d73768e029",
+      "data/photos/fantom_5_1.jpg": "15575a829a12b59bb78c6e1ca6dc85d8dfc407f742d263e904bba4e71632a726",
+      "data/photos/fantom_5_2.jpg": "893e97124322ca5481f7088df012ad64c22554adc4785d8b48fe31eea1afa130",
+      "data/source/LoadData.m": "b9a005a70b1ebf6121a233a1030fa9701ce857777a2f7fa48ca71fe9a817ae32",
+      "data/source/datamat_1_0.mat": "f91ab0c5edea5e06c8895b0d03597f801ecff4a59d72eaa4bf4914fac94fc9d9",
+      "data/source/datamat_1_1.mat": "6be1ff36c89cf77dca00364231c27b1f5d0a9470511135f67fd0869d50782a47",
+      "data/source/datamat_1_2.mat": "6e397892808fd42d60037d34d84878c4d50aeb1804260c548813f4a2d3aeb35d",
+      "data/source/datamat_2_1.mat": "d578b2c1cf4c2ae76541cd1e4fdf95bcd6088bc403ead16ee5f49def36e8f65e",
+      "data/source/datamat_2_3.mat": "cc1af68aef5db9c81e1555fe1d95917bb715f6d60b54d36ca28437ba6c633439",
+      "data/source/datamat_3_1.mat": "6259deac99aa66d33cdb1c09cf91b7a8e57bed1aff405e0987f654cef4503648",
+      "data/source/datamat_3_4.mat": "c1d0874c63736a0efc36bdcf0c7842a2346d0c919fee32f9681746efcd5f948c",
+      "data/source/datamat_4_1.mat": "59c4ff80f799860f9597966b02b684ae889fac53f8b79285b159ac7acc6c0827",
+      "data/source/datamat_4_3.mat": "c51f121e5a5f89a8ce6ad86bdab54166c26c5b424343a6fc7b399cee462b8f8d",
+      "data/source/datamat_5_1.mat": "15bce81729e698ad17f7a2bf352162e52beee1838c24f0c320711e1fbccfff0a",
+      "data/source/datamat_5_2.mat": "208fa34532762d32d154191c0763066b95a35169da9a87c330954ed6f2afa446",
+      "data/source/dataset_metadata.json": "8062b2eb338004c3f079273f72d757c0b51aa9d9e2fea51c9b79fe6fec9d527d"
+    }
+  },
+  "adaptations": [
+    "Independent eitbench package, CLI, bilingual README, configuration presets, examples, sequential suites and offline cases.",
+    "Strict real-valued case/protocol/configuration validation and snapshot validation at execution/storage boundaries.",
+    "Global work budgets including reference calibration, complete accepted-iterate checkpoints, explicit numerical failure records.",
+    "Zero or tiny difference data use selected reference-voltage norm; all homogeneous reference channels remain in calibration.",
+    "Raw signed experimental values, SI conversions, measurement ordering, dataset attribution and data bytes preserved.",
+    "Actual executed-array content/dtype/shape fingerprints, source-file hashes, environment/code hashes and truthful experimental metrics.",
+    "Display interpolation follows supplied mesh topology; no learned algorithms, weights or old executable repository snapshots bundled."
+  ],
+  "delivery_hash_scope": "All delivery files except SOURCE.json, packaged provenance copies, Git metadata and generated caches/build/run outputs.",
+  "delivery_sha256": {
+    ".github/workflows/tests.yml": "8cef62b891571dc5148287812267d3dbfe8a352b34b1a4d924441b8237853655",
+    ".gitignore": "3a4e5951271a66fe61d30229581d2cc52cca0d578e8d5032d50fea5ec9d7baba",
+    "CITATION.cff": "1e5c945fb6cf8b2d2c36cd97d41687aec7015b0aa39fe7a807f2dea0e698d4bc",
+    "LICENSE": "18932face5fafeed181b56442ab1b73d97cc849ab52b88dbcdb6ff29e67008b1",
+    "README.md": "e14fad7c28973e0d8733bb8c38869f138b0513deaa2ea243c2573f3698c5e6b9",
+    "README.zh-CN.md": "43fd3a652aa93e916296f125fe23bed5f25129bd1a129462748fabdac5ec6669",
+    "THIRD_PARTY_NOTICES.md": "f7f93ed95679b917cbfe4fd94bdef552ee3b7a1ffba74c6081ca9a767bbcc648",
+    "configs/algorithms/lbfgsb_tv_cem.yaml": "69e5d3112346267d91ec03daa0efafc3942e2d280cc9d39b37e8dae499f299b4",
+    "configs/algorithms/lbfgsb_tv_cem_absolute.yaml": "5cf80fc5d4e312e9c26121e763fdc7fec2b449038fcbf2165bba10ca4638e850",
+    "configs/algorithms/lbfgsb_tv_continuum.yaml": "7ad0b885521888f0ac27e83be9ccb884aa265c8f944c581951000b434ff0c4db",
+    "configs/algorithms/lbfgsb_tv_continuum_absolute.yaml": "139ae423885714bba4d2496a66e77d5b281700d1521c43928d15cf33ab922e0e",
+    "configs/benchmarks/kit4.yaml": "086d3f352f7854f9d3788415af0f452aa33c1f63aef428bd40817fb1ce89b962",
+    "configs/benchmarks/smoke.yaml": "0b1b27b5fc6518a4c2b1a6b9e9039b547f2d33a5a56868cf811e2cd57ec74643",
+    "data/example.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+    "data/manifest.json": "f9ec06ee34a3928e09bdd4b46a1e94e46e845d0891f81efb55098d50aea9151e",
+    "data/phantom_1_1.npz": "839fda721c1692c8f21a3f7de677f250e4edbfee205ad7193f672f6a2ac105f1",
+    "data/phantom_1_2.npz": "fc7da8c2d54dd09b3958e5ed728e679de92b1691d08bb281fcbd5daf9af433c3",
+    "data/phantom_2_1.npz": "0f8b95c278f567c435e336d75a280da3c58d12ff1f07b4f5420d41a569837c37",
+    "data/phantom_2_3.npz": "831cb565c42543a443eede46eba00ee221e80dc5ee87c289d108980cdeee7229",
+    "data/phantom_3_1.npz": "a982afc2e9896bf7ada8915e9ef4cf9684e756ecb7eeb16bdc73637da854196a",
+    "data/phantom_3_4.npz": "519ddb3642b74e07968f22ad2288c73b480be56e7b8a26bc61e74c955d04ec73",
+    "data/phantom_4_1.npz": "199fc4d57fd2f1f4c7bae36283cb28c148434a4f6a3f2c75d8f75007496ae61e",
+    "data/phantom_4_3.npz": "ad44bd9e0012e60cb700049ba8c6ff3ee248eabb3374815cad4a0d396fc38940",
+    "data/phantom_5_1.npz": "ec86db532ad35b5592e9fd8684cde985cecebfb371dfad8b90926b44d80709a8",
+    "data/phantom_5_2.npz": "eefb97a5cc3c64b894d381b4cc9e8378d70a44b273fa0be4d36e752bc9d8f1d0",
+    "data/photos/fantom_1_1.jpg": "310457b12767ad03c59aaba19a4b5a78f12d0e86ece705f7f713a55921388bf5",
+    "data/photos/fantom_1_2.jpg": "7bf7e8d83a5f555975bb7c762946943920fafdc2fecfd6c4478c8322c4a1e43f",
+    "data/photos/fantom_2_1.jpg": "c08a04039e733670238e04d7b286f98c80697b2686007751600ce8ec1e260383",
+    "data/photos/fantom_2_3.jpg": "bebc7ae1404be3ad9ba86572d59b8613f62a8ddfd6b53c5faf291b31fb1ef246",
+    "data/photos/fantom_3_1.jpg": "030ab1909307a68e4ac98a38fe0f8daac3b439de747d19fe2e27f7298a794645",
+    "data/photos/fantom_3_4.jpg": "6e9d1ca2d2392b1ba419b48b3a8907d9240ed9b9bb8a38cd810a43e1a9d4265e",
+    "data/photos/fantom_4_1.jpg": "557dc7821363841e86d74066e2eb38f3e91decf74288f66cf3afcd432190e03b",
+    "data/photos/fantom_4_3.jpg": "743b526c39bc4b87a5a6bd3f4a628a0e97072780de75fdf56dcdc6d73768e029",
+    "data/photos/fantom_5_1.jpg": "15575a829a12b59bb78c6e1ca6dc85d8dfc407f742d263e904bba4e71632a726",
+    "data/photos/fantom_5_2.jpg": "893e97124322ca5481f7088df012ad64c22554adc4785d8b48fe31eea1afa130",
+    "data/source/LoadData.m": "b9a005a70b1ebf6121a233a1030fa9701ce857777a2f7fa48ca71fe9a817ae32",
+    "data/source/datamat_1_0.mat": "f91ab0c5edea5e06c8895b0d03597f801ecff4a59d72eaa4bf4914fac94fc9d9",
+    "data/source/datamat_1_1.mat": "6be1ff36c89cf77dca00364231c27b1f5d0a9470511135f67fd0869d50782a47",
+    "data/source/datamat_1_2.mat": "6e397892808fd42d60037d34d84878c4d50aeb1804260c548813f4a2d3aeb35d",
+    "data/source/datamat_2_1.mat": "d578b2c1cf4c2ae76541cd1e4fdf95bcd6088bc403ead16ee5f49def36e8f65e",
+    "data/source/datamat_2_3.mat": "cc1af68aef5db9c81e1555fe1d95917bb715f6d60b54d36ca28437ba6c633439",
+    "data/source/datamat_3_1.mat": "6259deac99aa66d33cdb1c09cf91b7a8e57bed1aff405e0987f654cef4503648",
+    "data/source/datamat_3_4.mat": "c1d0874c63736a0efc36bdcf0c7842a2346d0c919fee32f9681746efcd5f948c",
+    "data/source/datamat_4_1.mat": "59c4ff80f799860f9597966b02b684ae889fac53f8b79285b159ac7acc6c0827",
+    "data/source/datamat_4_3.mat": "c51f121e5a5f89a8ce6ad86bdab54166c26c5b424343a6fc7b399cee462b8f8d",
+    "data/source/datamat_5_1.mat": "15bce81729e698ad17f7a2bf352162e52beee1838c24f0c320711e1fbccfff0a",
+    "data/source/datamat_5_2.mat": "208fa34532762d32d154191c0763066b95a35169da9a87c330954ed6f2afa446",
+    "data/source/dataset_metadata.json": "8062b2eb338004c3f079273f72d757c0b51aa9d9e2fea51c9b79fe6fec9d527d",
+    "docs/ALGORITHM.md": "7ed31af5006ff55da9b8247d72e6d3f0f95ef1a871eec0e9387db42304c35a50",
+    "docs/DATA_FORMAT.md": "6d093cbf9b6559fd119b97555c2444d4cc92be15bbbd83c08bfb0ea1bc1e6a5a",
+    "docs/PROVENANCE.md": "9de752e6df6ea5aac07b17033f8ca17ca5d5b11b154b6843da94cf50a648f5d1",
+    "docs/VALIDATION.md": "13c369097bd7594813aaac7e8dfcdabff471d4d8f21f6ee27b1273d7e987e933",
+    "docs/validation.json": "e176bee09e292570ad12dc0c30d395919c3eadd7ab7987a80bc2ce6f9be726ce",
+    "environment.yml": "2f38030680c7e5c9d3d15a846c8c9927f4346c1f0bfe9b31ec51d08f13736ef5",
+    "examples/eit_demo.py": "1c62ea087ee3f33f20aeda6c3d7a542529bb0aff1218868945961c5cb897d85f",
+    "examples/forward_demo.py": "b37c9ac3a8b77db50fd5fd92ea452784e1a06fa5f6cac05092463e5c7d90e5cf",
+    "pyproject.toml": "7164b0277b7d55413eaf761be79e90f59237cbe37e11ba1327af7a89a6ddf985",
+    "scripts/verify_sources.py": "c6f2769813a009e7cd3ee96ce80a77abc720e9467b5debbce4be5f61e2a24be3",
+    "src/eitbench/__init__.py": "836cc91b0a765d6e5912f645d02075571269cde3c66998a6f1d9077e2fa1a208",
+    "src/eitbench/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+    "src/eitbench/algorithms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/eitbench/algorithms/calibration.py": "afe87871c4712875f7cb93a4ded937dbd71b7b345597392c383f1198ea33d389",
+    "src/eitbench/algorithms/lbfgsb_tv.py": "6022de039fbd62c23961f9ef43e1be5719cd74fd14973be53546b5f3b115ba11",
+    "src/eitbench/algorithms/parameters.py": "22b5197507c5a1eb65d089382f7477a9dd7762f303e81159e957dd1c7c1bdf41",
+    "src/eitbench/benchmark/__init__.py": "91677970126fd305934422d475fbb94e0db4845c3f66efcd720374d04badbeca",
+    "src/eitbench/benchmark/artifacts.py": "d5f71e827835fc4e2de3649ab96233ae771e79624caa93017bca0a75e4b7dd56",
+    "src/eitbench/benchmark/runner.py": "be5707046f850ca21bec6dbe9bce2699ba79c49cb95b25623cc8cc229da913f7",
+    "src/eitbench/cli.py": "f24a00cf27090051b1d0016fc4573b2e0a27a29839bc403ce810940074269bfe",
+    "src/eitbench/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/eitbench/core/algorithm_specs.py": "cbcb29928c3fb60de5c59cebbb0f2c9a138c1c87dbfaf4f47442560387e3c899",
+    "src/eitbench/core/config.py": "2a14f934fc24fbda9f553aac803a09590d001e9df70dd0e3b2b2df11f719f0f9",
+    "src/eitbench/core/io.py": "7b431772f240f71eb40ab346e58022ddac3fb5f2971c5e32dd9f22566e0ee00c",
+    "src/eitbench/core/registry.py": "3da44dad0068c996e510772c63ab038237d83cff3f84880de1f62b65bcc84288",
+    "src/eitbench/core/run_controls.py": "0a0b05de3706935ffccc84d3a86ba2d573d5b49a35593be7f8ec4416eae19570",
+    "src/eitbench/core/schema.py": "8c4a05cacd42aa14891648533c6fcc5c8e0a1fab21e56c78344f91d542db9e79",
+    "src/eitbench/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/eitbench/data/import_submission.py": "5c899964a4535c301c646f37aad0a2460cbb23a1792a9fe3e25378345aa9402a",
+    "src/eitbench/data/prepare_kit4.py": "c65993b37eb537a7d4bbc5c0b98fdcae159e623592ca29cdf0ad83f32673a80c",
+    "src/eitbench/evaluation/__init__.py": "f698627cd3146d32d2181e21b55d0412f91146d95dce383a6493faba30e2c9e6",
+    "src/eitbench/evaluation/metrics.py": "d5f0d9e25a0e1ec5dc9d1ecc478f7a5d358a6063e8d8d12cba0b6f4e1fa233ae",
+    "src/eitbench/models/__init__.py": "be9e91da52dee9b6c01d10fa818be6347a4069e9ff98852c476fe41f90a5b6da",
+    "src/eitbench/models/conductivity.py": "e4f408a3d6a1633c10ea15410a3826deef4fa395bda80a98ca9fb8e41d09f97b",
+    "src/eitbench/operators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/eitbench/operators/base.py": "a023305d8ed0a7512a9091d39ad4fff48cb15067825be131ffeb973b33709f2e",
+    "src/eitbench/operators/eit.py": "8a5b441097572af93cc4e9940dddbbe0d0816e36b9dfb4959758968abafc684b",
+    "src/eitbench/operators/fem.py": "d58cde86feb73843c3b977e4cfe748c91e81608049a3c207a272850a210dc6b7",
+    "src/eitbench/operators/forward.py": "9363298d31d9f2f850de3f738b369a62211999a7caa010f5a89ddd8e44851e90",
+    "src/eitbench/operators/regularization.py": "7b516e479e67855a4d50eb802001cd5d356bccb787c68fd37ad94e7b05b15b6d",
+    "src/eitbench/solvers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/eitbench/solvers/base.py": "fc45f29352dca7325c75fc265df855985006298c968819f3d5a71bb63141ce12",
+    "src/eitbench/solvers/lbfgsb.py": "b13a458493028e5757683e72f068755ffbeeb7337a12ba19e25f20d13d632a36",
+    "src/eitbench/solvers/tv.py": "e6f3b4bdf522f066b6a153e5f5b740fa8132048e5b32bc7164548b81d4374b71",
+    "src/eitbench/viz.py": "12bb756a1f0188bf7526808f9243be7eeabb5d345acefee935c026ee69f32775",
+    "tests/test_eit.py": "124289e319a84dcc631025e074e4e85b1743ef5ee6b6875f7fb23829a2f75567",
+    "tests/test_independence.py": "fea4389826787812c098c2e19c76cac732a14af2d795818a50a771aee840fe76",
+    "tests/test_numerical_inputs.py": "e72de19dbff88b2525004869e1278fa8bbb3fd063647edf8dbd51d7c7df7c584",
+    "tests/test_workflow.py": "4a8a7c817a1a219e4d2811b0e1a7ecbfa322f8caa63c106fb243afa4a2dfd8cc"
+  }
+}

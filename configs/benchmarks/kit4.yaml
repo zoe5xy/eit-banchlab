@@ -1,0 +1,14 @@
+# File references are relative to this YAML file.
+algorithm: lbfgsb_tv
+config: ../algorithms/lbfgsb_tv_cem.yaml
+cases:
+  - ../../data/phantom_1_1.npz
+  - ../../data/phantom_1_2.npz
+  - ../../data/phantom_2_1.npz
+  - ../../data/phantom_2_3.npz
+  - ../../data/phantom_3_1.npz
+  - ../../data/phantom_3_4.npz
+  - ../../data/phantom_4_1.npz
+  - ../../data/phantom_4_3.npz
+  - ../../data/phantom_5_1.npz
+  - ../../data/phantom_5_2.npz

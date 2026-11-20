@@ -1,0 +1,9 @@
+algorithm: lbfgsb_tv
+config:
+  parameters:
+    variant: cem
+    mode: difference
+  run_controls:
+    max_iterations: 3
+cases:
+  - ../../data/example.npz

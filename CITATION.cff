@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  This citation describes the experimental dataset bundled with EIT Benchlab.
+  Please cite the dataset and its report when using these measurements. The
+  listed authors are dataset authors; this file does not assign software
+  authorship. Software provenance is recorded in SOURCE.json.
+type: dataset
+title: 2D electrical impedance tomography dataset
+version: 1.0.0
+date-released: 2017-04-04
+doi: 10.5281/zenodo.1203914
+url: https://zenodo.org/records/1203914
+license: CC-BY-4.0
+authors:
+  - family-names: Hauptmann
+    given-names: Andreas
+    affiliation: University of Helsinki
+  - family-names: Kolehmainen
+    given-names: Ville
+    affiliation: University of Eastern Finland
+  - family-names: Mach
+    given-names: Nguyet Minh
+    affiliation: University of Helsinki
+  - family-names: Savolainen
+    given-names: Tuomo
+    affiliation: University of Eastern Finland
+  - family-names: Seppänen
+    given-names: Aku
+    affiliation: University of Eastern Finland
+  - family-names: Siltanen
+    given-names: Samuli
+    affiliation: University of Helsinki
+references:
+  - type: report
+    title: Open 2D Electrical Impedance Tomography data archive
+    year: 2017
+    url: https://arxiv.org/abs/1704.01178
+    authors:
+      - family-names: Hauptmann
+        given-names: Andreas
+      - family-names: Kolehmainen
+        given-names: Ville
+      - family-names: Mach
+        given-names: Nguyet Minh
+      - family-names: Savolainen
+        given-names: Tuomo
+      - family-names: Seppänen
+        given-names: Aku
+      - family-names: Siltanen
+        given-names: Samuli

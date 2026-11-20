@@ -1,0 +1,36 @@
+{
+  "title": "2D electrical impedance tomography dataset",
+  "creators": [
+    {
+      "name": "Hauptmann, Andreas",
+      "affiliation": "University of Helsinki"
+    },
+    {
+      "name": "Kolehmainen, Ville",
+      "affiliation": "University of Eastern Finland"
+    },
+    {
+      "name": "Mach, Nguyet Minh",
+      "affiliation": "University of Helsinki"
+    },
+    {
+      "name": "Savolainen, Tuomo",
+      "affiliation": "University of Eastern Finland"
+    },
+    {
+      "name": "Seppänen, Aku",
+      "affiliation": "University of Eastern Finland"
+    },
+    {
+      "name": "Siltanen, Samuli",
+      "affiliation": "University of Helsinki"
+    }
+  ],
+  "publication_date": "2017-04-04",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.1203914",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "metadata_source": "https://zenodo.org/api/records/1203914"
+}

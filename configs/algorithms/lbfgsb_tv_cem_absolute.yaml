@@ -1,0 +1,9 @@
+name: lbfgsb_tv
+parameters:
+  variant: cem
+  mode: absolute
+  alpha: 0.0003
+run_controls:
+  max_iterations: 500
+deployment:
+  device: cpu
